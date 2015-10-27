@@ -82,14 +82,12 @@ public final class test_jsp extends org.apache.jasper.runtime.HttpJspBase
              		Statement stmt = m_con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
              		ResultSet rset = stmt.executeQuery(SQLStatement);
 			ResultSetMetaData rsetMetaData=rset.getMetaData();
-			int ccount=rsetMetaData.getColumnCount();
 
-			
-			printString = printString + rsetMetaData.getColumnName(1);
+			while(rset.next()){
+			        printString = printString + " " + rset.getObject(1).toString() + " "  + rset.getObject(2).toString() + " " + rset.getObject(3).toString() + " " + rset.getObject(4).toString() + " " + rset.getObject(5).toString() + " <br/>" ;
+                        }
 
-
-
-			out.println("The Result of SQL Statement:" + printString);
+			out.println("The Result of SQL Statement: <br/>" + printString);
 
 		}catch(SQLException ex) {
 
