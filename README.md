@@ -11,3 +11,4 @@ use Hong Chen's port 16180 or change both port 1 and 2 number in catalina/conf/s
 
 
 select tablespace_name, table_name from user_tables;
+select tablespace_name, table_name from dba_tables;
