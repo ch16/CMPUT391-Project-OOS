@@ -31,7 +31,7 @@
 			int ccount=rsetMetaData.getColumnCount();
 
 			
-			printString = printString + rsetMetaData.getColumnName(1);
+			printString = printString + rsetMetaData.getColumnName();
 
 
 

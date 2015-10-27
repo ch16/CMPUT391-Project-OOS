@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class Example1_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class Example2_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -52,9 +52,12 @@ public final class Example1_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("<HTML> \n");
       out.write("  <BODY> \n");
-      out.write("\tWelcome to CMPUT391 Lab!!\n");
+      out.write("\tHello!  The time is now \n");
+      out.write("\t");
+      out.print( new java.util.Date() );
+      out.write("\n");
       out.write("  </BODY> \n");
-      out.write("</HTML>\n");
+      out.write("</HTML>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

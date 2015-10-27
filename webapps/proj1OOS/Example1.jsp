@@ -1,5 +1,5 @@
 <HTML> 
   <BODY> 
-	Welcome to CMPUT391 Lab!
+	Welcome to CMPUT391 Lab!!
   </BODY> 
 </HTML>
