@@ -706,3 +706,61 @@ Oct 27, 2015 5:10:33 PM org.apache.jk.server.JkMain start
 INFO: Jk running ID=0 time=0/13  config=null
 Oct 27, 2015 5:10:33 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 661 ms
+Oct 27, 2015 5:15:55 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /cshome/yunita/catalina/temp
+Oct 27, 2015 5:15:56 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /oracle/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Oct 27, 2015 5:15:56 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:15:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 730 ms
+Oct 27, 2015 5:15:56 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 27, 2015 5:15:56 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Oct 27, 2015 5:15:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory proj1OOS
+Oct 27, 2015 5:15:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory proj1Examples
+Oct 27, 2015 5:15:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Oct 27, 2015 5:15:57 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:15:57 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Oct 27, 2015 5:15:57 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Oct 27, 2015 5:15:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 605 ms
+Oct 27, 2015 5:21:39 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:21:40 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Oct 27, 2015 5:21:40 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:21:42 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /cshome/yunita/catalina/temp
+Oct 27, 2015 5:21:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /oracle/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Oct 27, 2015 5:21:42 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:21:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Oct 27, 2015 5:21:42 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 27, 2015 5:21:42 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.44
+Oct 27, 2015 5:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory proj1OOS
+Oct 27, 2015 5:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory proj1Examples
+Oct 27, 2015 5:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Oct 27, 2015 5:21:43 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-16180
+Oct 27, 2015 5:21:43 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Oct 27, 2015 5:21:43 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Oct 27, 2015 5:21:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 645 ms
