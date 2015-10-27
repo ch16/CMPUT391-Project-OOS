@@ -6,3 +6,5 @@ download and rename the folder to catalina, run with http://{station}.cs.ualbert
 
 to run script:
 SQL > @script.sql
+
+use Hong Chen's port 16180 or change both port 1 and 2 number in catalina/conf/server.xml
