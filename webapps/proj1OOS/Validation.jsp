@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Validation</title>
 </head>
 <body>
 
@@ -48,7 +48,7 @@
 				} else if (role.equals("d")){
 					response.sendRedirect("DataCurator.jsp");
 				} else {
-					response.sendRedirect("Scientiest.jsp");
+					response.sendRedirect("Scientist.jsp");
 				}
 			}
 			out.println(printString);
